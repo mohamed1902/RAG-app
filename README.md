@@ -43,5 +43,12 @@ $ uvicorn main:app --reload
 ## Run Docker Compose Services
 
 ```bash
+$ cd docker
+$ cp .env.example .env
+```
+- update `.env` with your credentials
+
+
+```bash
 $ sudo docker compose up -d
 ```
