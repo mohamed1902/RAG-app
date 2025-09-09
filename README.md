@@ -52,3 +52,9 @@ $ cp .env.example .env
 ```bash
 $ sudo docker compose up -d
 ```
+
+### Run Alembic Migration
+
+```bash
+$ alembic upgrade head
+```
